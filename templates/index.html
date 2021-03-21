@@ -560,9 +560,9 @@ label.rating {
 			<h2>Find The Best Price Now</h2>
 				<h3 class="out">{{ prediction_text }}</h3>
 			<form action="/car_predict" method="POST">
-				<input type="text" name="Present_Price" placeholder="Showroom Price" required="">
+				<input type="text" name="Present_Price" placeholder="Showroom Price(in lakhs Eg: 5, 7.5 etc)" required="">
 				<input type="text" name="Kms_Driven" placeholder="Kilometers Driven" required="">
-				<input type="text"  name="Year" placeholder="Manufactured Year" required="">
+				<input type="text"  name="Year" placeholder="Manufactured Year(Eg: 2012, 2009 etc)" required="">
 				<div class="clear"> </div>
 				<div class="form-control">
 						<div class="main-row">
@@ -603,7 +603,7 @@ label.rating {
 					</div>
 					</div>
 				</div>
-				<input type="submit" value="Submit">
+				<input type="submit" value="Price">
 				</div>
 			</form>
 
